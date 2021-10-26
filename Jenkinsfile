@@ -18,7 +18,7 @@ pipeline {
           snykTokenId: 'mySnkToken',
           // place other parameters here
  	  targetFile: 'Dockerfile',
-	  additionalArguments: '--package-manager=maven'
+	  additionalArguments: '--package-manager=linux'
 	  
         )
       }
