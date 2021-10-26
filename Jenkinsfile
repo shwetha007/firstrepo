@@ -17,7 +17,7 @@ pipeline {
           snykInstallation: 'mySnyk',
           snykTokenId: 'mySnkToken',
           // place other parameters here
- 	  targetFile: 'Dockerfile'
+ 	  //targetFile: 'Dockerfile'
         )
       }
     }
