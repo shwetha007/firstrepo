@@ -17,8 +17,8 @@ pipeline {
           snykInstallation: 'mySnyk',
           snykTokenId: 'mySnkToken',
           // place other parameters here
- 	  targetFile: 'Simple.java'
-	//additionalArguments: '--package-manager=pip'
+ 	  targetFile: 'req.txt',
+	additionalArguments: '--package-manager=pip'
 	  
         )
       }
